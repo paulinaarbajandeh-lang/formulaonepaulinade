@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "v1/car_data?driver_number=55&speed>=300"
+				"relativeUrl": "v1/drivers?session_key=latest"
 			}
 		},
 		"schema": {}
