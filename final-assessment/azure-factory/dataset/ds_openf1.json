@@ -1,0 +1,18 @@
+{
+	"name": "ds_openf1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_openf1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "v1/car_data?driver_number=55&speed>=300"
+			}
+		},
+		"schema": {}
+	}
+}
