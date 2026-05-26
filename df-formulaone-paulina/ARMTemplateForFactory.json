@@ -127,6 +127,10 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobStorageLocation",
+						"fileName": {
+							"value": "@concat('f1_live_drivers_', formatDateTime(utcNow(), 'yyyyMMdd_HHmmss'), '.json')\n",
+							"type": "Expression"
+						},
 						"container": "raw"
 					}
 				},
